@@ -3,7 +3,7 @@
 DOTPATH=$HOME/.dotfiles
 
 if [ ! -d "$DOTPATH" ]; then
-    git clone https://github.com/atsuya046/dotfiles.git
+    git clone https://github.com/atsuya046/dotfiles.git $DOTPATH
 fi
 
 cd "$DOTPATH"
