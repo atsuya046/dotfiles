@@ -5,6 +5,7 @@ tap "thoughtbot/formulae"
 
 brew "carthage"
 brew "ffmpeg"
+brew "gibo"
 brew "gist"
 brew "mas"
 brew "pidcat"
@@ -16,6 +17,11 @@ brew "swiftgen"
 brew "swiftlint"
 brew "xcodegen"
 brew "thoughtbot/formulae/rcm"
+brew "cocoapods"
+brew "usbmuxd", args: ["HEAD"]
+brew "libimobiledevice", args: ["HEAD"]
+brew "ideviceinstaller"
+brew "ios-deploy"
 
 cask "android-studio"
 cask "appcode"
