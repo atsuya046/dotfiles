@@ -22,6 +22,7 @@ brew "usbmuxd", args: ["HEAD"]
 brew "libimobiledevice", args: ["HEAD"]
 brew "ideviceinstaller"
 brew "ios-deploy"
+brew "graphviz"
 
 cask "android-studio"
 cask "appcode"
