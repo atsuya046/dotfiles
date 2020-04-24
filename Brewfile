@@ -34,6 +34,7 @@ cask "jetbrains-toolbox"
 cask "iterm2"
 cask "karabiner-elements"
 cask "deepl"
+cask "google-cloud-sdk"
 
 mas "com.amazon.Kindle", id: 405399194
 mas "1Password 7", id: 1333542190

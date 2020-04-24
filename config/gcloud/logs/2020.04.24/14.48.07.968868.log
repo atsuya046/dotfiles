@@ -1,0 +1,7 @@
+2020-04-24 14:48:07,970 DEBUG    root            Loaded Command Group: [u'gcloud', u'config']
+2020-04-24 14:48:07,977 DEBUG    root            Loaded Command Group: [u'gcloud', u'config', u'set']
+2020-04-24 14:48:07,980 DEBUG    root            Running [gcloud.config.set] with arguments: [SECTION/PROPERTY: "project", VALUE: "makuake-stg3"]
+2020-04-24 14:48:07,981 INFO     ___FILE_ONLY___ Updated property [core/project].
+
+2020-04-24 14:48:08,919 INFO     root            Display format: "default"
+2020-04-24 14:48:08,930 DEBUG    root            Metrics reporting process started...

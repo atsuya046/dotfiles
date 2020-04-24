@@ -19,3 +19,6 @@ export SDKMAN_DIR="$HOME/.sdkman"
 # Flutter
 export FLUTTER_HOME="$HOME/Develop/flutter"
 export PATH="$PATH:$FLUTTER_HOME/bin"
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"

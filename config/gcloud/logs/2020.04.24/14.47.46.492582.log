@@ -1,0 +1,41 @@
+2020-04-24 14:47:46,494 DEBUG    root            Loaded Command Group: [u'gcloud', u'config']
+2020-04-24 14:47:46,507 DEBUG    root            Loaded Command Group: [u'gcloud', u'config', u'set']
+2020-04-24 14:47:46,510 DEBUG    root            Running [gcloud.config.set] with arguments: [SECTION/PROPERTY: "project", VALUE: "998595161851"]
+2020-04-24 14:47:46,510 DEBUG    root            (gcloud.config.set) The project property must be set to a valid project ID, not the project number [998595161851]
+To set your project, run:
+
+  $ gcloud config set project PROJECT_ID
+
+or to unset it, run:
+
+  $ gcloud config unset project
+Traceback (most recent call last):
+  File "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/lib/googlecloudsdk/calliope/cli.py", line 983, in Execute
+    resources = calliope_command.Run(cli=self, args=args)
+  File "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/lib/googlecloudsdk/calliope/backend.py", line 807, in Run
+    resources = command_instance.Run(args)
+  File "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/lib/surface/config/set.py", line 152, in Run
+    properties.PersistProperty(prop, args.value, scope=scope)
+  File "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/lib/googlecloudsdk/core/properties.py", line 2402, in PersistProperty
+    prop.Validate(value)
+  File "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/lib/googlecloudsdk/core/properties.py", line 2184, in Validate
+    self.__validator(value)
+  File "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/lib/googlecloudsdk/core/properties.py", line 1316, in ProjectValidator
+    'project number [{value}]'.format(value=project))
+InvalidProjectError: The project property must be set to a valid project ID, not the project number [998595161851]
+To set your project, run:
+
+  $ gcloud config set project PROJECT_ID
+
+or to unset it, run:
+
+  $ gcloud config unset project
+2020-04-24 14:47:46,515 ERROR    root            (gcloud.config.set) The project property must be set to a valid project ID, not the project number [998595161851]
+To set your project, run:
+
+  $ gcloud config set project PROJECT_ID
+
+or to unset it, run:
+
+  $ gcloud config unset project
+2020-04-24 14:47:46,547 DEBUG    root            Metrics reporting process started...
