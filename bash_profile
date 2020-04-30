@@ -22,3 +22,11 @@ export PATH="$PATH:$FLUTTER_HOME/bin"
 export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
+
+[[ -s "$HOME/.gvm/scripts/gvm" ]] && source "$HOME/.gvm/scripts/gvm"
+export GO111MODULE="on"
+
+export PATH=$HOME/.nodebrew/current/bin:$PATH
+
+eval "$(direnv hook bash)"
+
