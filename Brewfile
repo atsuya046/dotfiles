@@ -23,6 +23,9 @@ brew "libimobiledevice", args: ["HEAD"]
 brew "ideviceinstaller"
 brew "ios-deploy"
 brew "graphviz"
+brew "mercurial"
+brew "nodebrew"
+brew "direnv"
 
 cask "android-studio"
 cask "appcode"
