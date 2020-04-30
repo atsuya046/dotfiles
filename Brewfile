@@ -23,6 +23,11 @@ brew "libimobiledevice", args: ["HEAD"]
 brew "ideviceinstaller"
 brew "ios-deploy"
 brew "graphviz"
+brew "mercurial"
+brew "nodebrew"
+brew "yarn", args: ["ignore-dependencies"]
+brew "direnv"
+brew "mysql@5.6"
 
 cask "android-studio"
 cask "appcode"
