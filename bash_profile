@@ -30,3 +30,4 @@ export PATH=$HOME/.nodebrew/current/bin:$PATH
 
 eval "$(direnv hook bash)"
 
+export PATH="/usr/local/opt/mysql@5.6/bin:$PATH"
