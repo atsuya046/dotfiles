@@ -15,3 +15,19 @@ eval "$(rbenv init -)"
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
+
+# Flutter
+export FLUTTER_HOME="$HOME/Develop/flutter"
+export PATH="$PATH:$FLUTTER_HOME/bin"
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
+
+[[ -s "$HOME/.gvm/scripts/gvm" ]] && source "$HOME/.gvm/scripts/gvm"
+export GO111MODULE="on"
+
+export PATH=$HOME/.nodebrew/current/bin:$PATH
+
+eval "$(direnv hook bash)"
+
+export PATH="/usr/local/opt/mysql@5.6/bin:$PATH"

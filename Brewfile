@@ -5,6 +5,7 @@ tap "thoughtbot/formulae"
 
 brew "carthage"
 brew "ffmpeg"
+brew "gibo"
 brew "gist"
 brew "mas"
 brew "pidcat"
@@ -17,6 +18,17 @@ brew "swiftlint"
 brew "xcodegen"
 brew "thoughtbot/formulae/rcm"
 brew "mitmproxy"
+brew "cocoapods"
+brew "usbmuxd", args: ["HEAD"]
+brew "libimobiledevice", args: ["HEAD"]
+brew "ideviceinstaller"
+brew "ios-deploy"
+brew "graphviz"
+brew "mercurial"
+brew "nodebrew"
+brew "yarn", args: ["ignore-dependencies"]
+brew "direnv"
+brew "mysql@5.6"
 
 cask "android-studio"
 cask "appcode"
@@ -27,6 +39,8 @@ cask "intellij-idea"
 cask "jetbrains-toolbox"
 cask "iterm2"
 cask "karabiner-elements"
+cask "deepl"
+cask "google-cloud-sdk"
 
 mas "com.amazon.Kindle", id: 405399194
 mas "1Password 7", id: 1333542190
