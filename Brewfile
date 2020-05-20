@@ -16,6 +16,7 @@ brew "swiftgen"
 brew "swiftlint"
 brew "xcodegen"
 brew "thoughtbot/formulae/rcm"
+brew "mitmproxy"
 
 cask "android-studio"
 cask "appcode"
