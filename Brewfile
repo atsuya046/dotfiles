@@ -17,6 +17,7 @@ brew "swiftgen"
 brew "swiftlint"
 brew "xcodegen"
 brew "thoughtbot/formulae/rcm"
+brew "mitmproxy"
 brew "cocoapods"
 brew "usbmuxd", args: ["HEAD"]
 brew "libimobiledevice", args: ["HEAD"]
