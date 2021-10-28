@@ -31,3 +31,20 @@ export PATH=$HOME/.nodebrew/current/bin:$PATH
 eval "$(direnv hook bash)"
 
 export PATH="/usr/local/opt/mysql@5.6/bin:$PATH"
+eval export PATH="/Users/s10129/.rbenv/shims:${PATH}"
+export RBENV_SHELL=sh
+command rbenv rehash 2>/dev/null
+rbenv() {
+  local command
+  command="${1:-}"
+  if [ "$#" -gt 0 ]; then
+    shift
+  fi
+
+  case "$command" in
+  rehash|shell)
+    eval "$(rbenv "sh-$command" "$@")";;
+  *)
+    command rbenv "$command" "$@";;
+  esac
+}
