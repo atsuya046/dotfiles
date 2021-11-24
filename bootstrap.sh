@@ -26,5 +26,8 @@ if ! command -v gvm > /dev/null 2>&1; then
     source $HOME/.gvm/scripts/gvm
 fi
 
+# Install sdkman
+curl -s "https://get.sdkman.io" | bash
+
 echo "Bootstrapping DONE!"
 
