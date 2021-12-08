@@ -6,6 +6,7 @@ export PATH="$HOME/.pyenv/shims:$PATH"
 export ANDROID_SDK_HOME="$HOME/Library/Android/sdk"
 export PATH="$ANDROID_SDK_HOME/platform-tools:$PATH"
 export PATH="$ANDROID_SDK_HOME/emulator:$PATH"
+export ANDROID_HOME="$ANDROID_SDK_HOME"
 
 # Ruby
 export PATH="$HOME/.rbenv/bin:$PATH"
@@ -15,6 +16,7 @@ eval "$(rbenv init -)"
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
+export JAVA_HOME=$HOME/.sdkman/candidates/java/current
 
 # Flutter
 export FLUTTER_HOME="$HOME/Develop/flutter"
