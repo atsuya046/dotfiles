@@ -19,10 +19,7 @@ brew "libass"
 brew "ffmpeg"
 brew "gibo"
 brew "gist"
-brew "python@3.8"
 brew "graphviz"
-brew "libusbmuxd", args: ["HEAD"]
-brew "libimobiledevice", args: ["HEAD"]
 brew "ideviceinstaller"
 brew "ios-deploy"
 brew "jq"
@@ -33,10 +30,12 @@ brew "mint"
 brew "mitmproxy"
 brew "mkcert"
 brew "mysql@5.6", restart_service: true
+brew "node"
 brew "nodebrew"
 brew "php", restart_service: true
 brew "pidcat"
 brew "pyenv"
+brew "python@3.8"
 brew "ruby-build"
 brew "rbenv"
 brew "rename"
@@ -50,15 +49,17 @@ brew "dart-lang/dart/dart", link: false
 brew "thoughtbot/formulae/rcm"
 cask "android-studio"
 cask "appcode"
-cask "atom"
 cask "deepl"
 cask "flutter"
+cask "github"
+cask "google-chrome"
 cask "google-cloud-sdk"
 cask "google-japanese-ime"
 cask "intellij-idea"
 cask "iterm2"
 cask "jetbrains-toolbox"
 cask "karabiner-elements"
+cask "sublime-text"
 cask "xcodes"
 mas "1Password 7", id: 1333542190
 mas "GarageBand", id: 682658836
@@ -68,4 +69,3 @@ mas "Kindle", id: 405399194
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Xcode", id: 497799835
-mas "XMind", id: 1327661892
