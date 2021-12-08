@@ -48,3 +48,7 @@ rbenv() {
     command rbenv "$command" "$@";;
   esac
 }
+
+# Sublime Test
+export PATH="/Applications/Sublime Text.app/Contents/SharedSupport/bin:$PATH"
+
