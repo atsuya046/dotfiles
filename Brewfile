@@ -59,6 +59,7 @@ cask "intellij-idea"
 cask "iterm2"
 cask "jetbrains-toolbox"
 cask "karabiner-elements"
+cask "notion"
 cask "sublime-text"
 cask "xcodes"
 mas "1Password 7", id: 1333542190
