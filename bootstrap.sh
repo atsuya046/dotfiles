@@ -13,7 +13,7 @@ ln -s .nodebrew/current/ /usr/local/opt/node/
 
 if ! command -v brew > /dev/null 2>&1; then
     # Install homebrew: https://brew.sh/
-    /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
     echo
 fi
 brew bundle
