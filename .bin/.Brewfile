@@ -58,11 +58,3 @@ cask "karabiner-elements"
 cask "notion"
 cask "sublime-text"
 cask "xcodes"
-mas "1Password 7", id: 1333542190
-mas "GarageBand", id: 682658836
-mas "iMovie", id: 408981434
-mas "Keynote", id: 409183694
-mas "Kindle", id: 405399194
-mas "Numbers", id: 409203825
-mas "Pages", id: 409201541
-mas "Xcode", id: 497799835
