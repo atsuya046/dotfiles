@@ -15,8 +15,8 @@ if ! command -v brew > /dev/null 2>&1; then
     # Install homebrew: https://brew.sh/
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
     echo
-    echo '# Set PATH, MANPATH, etc., for Homebrew.' >> /Users/s10129/.zprofile
-    echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/s10129/.zprofile
+    echo >> $HOME/.zprofile
+    echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> $HOME/.zprofile
     eval "$(/opt/homebrew/bin/brew shellenv)"
 fi
 brew bundle
@@ -31,6 +31,9 @@ fi
 
 # Install sdkman
 curl -s "https://get.sdkman.io" | bash
+
+# make links
+$DOTPATH/dotfiles_link.sh
 
 echo "Bootstrapping DONE!"
 
